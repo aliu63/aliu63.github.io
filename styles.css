@@ -227,7 +227,7 @@ body {
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #d1d5db;
   border-radius: 10px;
   font-size: 16px;
   font-family: Arial, sans-serif;
@@ -245,3 +245,4 @@ body {
   padding: 10px;
   font-size: 14px;
 }
+
