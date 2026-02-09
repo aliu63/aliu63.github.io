@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Order Services | Snow-Dozer Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+
+    <a href="main.html" class="logo">
+        <img src="cs20 logo.png">
+        <h1>Snow-Dozer Services</h1>
+    </a>
+
+    <div class="links">
+      <a href="main.html">Home</a>
+      <a href="order.html">Order Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </div>
+
+  <!-- Page Content -->
+   <div class="page-content">
+
+    <h1>Order Services</h1>
+    <form class="order-form" action="#" method="post">
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input type="text" id="firstName" name="firstName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input type="text" id="lastName" name="lastName" required>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" placeholder="123 Main St, City, State" required>
+    </div>
+
+    <div class="form-group">
+      <p class="group-title">Services required</p>
+
+      <label class="check-item">
+        <input type="checkbox" name="services[]" value="Driveway"> Driveway
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="services[]" value="Sidewalk"> Sidewalk
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="services[]" value="Front Lawn"> Front Lawn
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="services[]" value="Back Yard"> Back Yard
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="services[]" value="Whole Property"> Whole Property
+      </label>
+    </div>
+
+    <div class="form-group">
+      <p class="group-title">Equipment rental</p>
+
+      <label class="check-item">
+        <input type="checkbox" name="equipment[]" value="Salter"> Salter ($10/Hr)
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="equipment[]" value="Shovel"> Shovel ($15/Hr)
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="equipment[]" value="Small Snow Blower"> Small Snow Blower ($100/Hr)
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="equipment[]" value="Medium Snow Blower"> Medium Snow Blower ($250/Hr)
+      </label>
+
+      <label class="check-item">
+        <input type="checkbox" name="equipment[]" value="Large Snow Blower"> Large Snow Blower ($400/Hr)
+      </label>
+    </div>
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <div class="form-group">
+        <label for="time">Time</label>
+        <input type="time" id="time" name="time" required>
+      </div>
+    </div>
+
+    <button type="submit" class="button">Submit Request</button>
+
+  </form>
+
+
+  </div>
+<div class="footer">
+   2026 Snow-Dozer Services - This is not a real service. This is a Tufts University Project.
+</div>  
+</body>
+
+</html>
